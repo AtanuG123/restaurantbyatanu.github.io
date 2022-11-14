@@ -1,0 +1,123 @@
+body{
+    /* height:110%; */
+    /* overflow: hidden; */
+    font-size: 12px;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar ul {
+   /* margin: 0px; */
+   margin-left: auto;
+   margin-right: auto;
+}
+#navbar ul li{
+    padding: .1em;
+}
+
+#home{
+    margin-left: 1rem;
+}
+#headline{
+    font-size: 1.8rem;
+}
+.point{
+    margin-top: 2.5rem;
+}
+#point1,#point2{
+ width: 5rem;  
+}
+#dish{
+    margin-top: 12.5rem;
+}
+#forimg{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    margin: 0em;
+}
+#dish ul{
+    overflow: scroll;
+}
+#aboutus{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+#aboutus a{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+.imgabout{
+    width: fit-content;
+    width: 25em;
+    display: flex;
+    margin: 2em;
+    justify-content: center;
+    height: 25em;
+    /* height: fit-content; */
+}
+#contactus,#from-map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#touch{
+    font-size: 2rem;
+}
+#contactus{
+    font-size: 1em;
+    width: 20rem;
+}
+
+#from1{
+    width:22em;
+    margin: 0em;
+    padding: 2em;
+}
+#from1 div{
+    margin: 1.2rem 0rem ;
+    padding: 0px;
+    height: 2.5em;
+}
+#from1 div input{
+    font-size:1.1em;
+    height: 3em;
+}
+.send{
+    height: 2rem;
+    width: 5rem;
+    font-size: .9rem;
+}
+#map{
+    width: 20rem;
+}
+#mapi{
+    /* w/idth: fit-content; */
+    margin: 0em;
+    
+    width: 26em;
+}
+#forlink,#forlink i,#forlink a{
+    margin: 0em;
+    padding: 0em;
+}
+#forlink div {
+    padding: .5em 1rem;
+}
+footer li {
+    padding: .2em .9em;
+    
+}
+footer li a{
+    font-size: 1.1em;
+}
+#footer{
+    overflow:hidden;
+}
