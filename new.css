@@ -389,3 +389,7 @@ footer li a{
 .links:hover{
     color: rgb(8, 16, 55);
 }
+#copyright{
+    color: white;
+    text-align: center;
+}
